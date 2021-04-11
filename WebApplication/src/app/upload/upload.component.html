@@ -1,0 +1,14 @@
+
+<h1>File submit and reverse display example</h1>
+<div>
+    <form (ngSubmit) = "FileSubmitted()">
+        <input id="file" type="file" class="upload" (change)="changeListener($event)" accept="text/plain" required>
+        <br/>
+        <br/>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
+<div id="attachment">
+
+
+</div>

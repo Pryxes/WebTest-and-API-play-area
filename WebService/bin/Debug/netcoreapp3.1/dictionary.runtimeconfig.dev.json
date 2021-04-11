@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Pryxes\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Pryxes\\.nuget\\packages"
+    ]
+  }
+}

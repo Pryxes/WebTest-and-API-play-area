@@ -1,0 +1,17 @@
+<button (click)="toggle()" id="bttn">{{buttonName}}</button>
+
+
+
+<div [hidden] ="show">
+    <app-upload></app-upload>
+</div>
+<div [hidden] ="!show">
+    <app-dataread></app-dataread>
+</div>
+
+
+
+
+
+
+<router-outlet></router-outlet>
